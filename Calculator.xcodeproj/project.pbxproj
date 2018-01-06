@@ -10,7 +10,6 @@
 		15DB6CEF1FFE314B007205B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DB6CEE1FFE314B007205B6 /* AppDelegate.swift */; };
 		15DB6CF11FFE314B007205B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DB6CF01FFE314B007205B6 /* ViewController.swift */; };
 		15DB6CF41FFE314B007205B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15DB6CF21FFE314B007205B6 /* Main.storyboard */; };
-		15DB6CF61FFE314B007205B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15DB6CF51FFE314B007205B6 /* Assets.xcassets */; };
 		15DB6CF91FFE314B007205B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15DB6CF71FFE314B007205B6 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -19,7 +18,6 @@
 		15DB6CEE1FFE314B007205B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		15DB6CF01FFE314B007205B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		15DB6CF31FFE314B007205B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		15DB6CF51FFE314B007205B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15DB6CF81FFE314B007205B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15DB6CFA1FFE314B007205B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -57,7 +55,6 @@
 				15DB6CEE1FFE314B007205B6 /* AppDelegate.swift */,
 				15DB6CF01FFE314B007205B6 /* ViewController.swift */,
 				15DB6CF21FFE314B007205B6 /* Main.storyboard */,
-				15DB6CF51FFE314B007205B6 /* Assets.xcassets */,
 				15DB6CF71FFE314B007205B6 /* LaunchScreen.storyboard */,
 				15DB6CFA1FFE314B007205B6 /* Info.plist */,
 			);
@@ -124,7 +121,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				15DB6CF91FFE314B007205B6 /* LaunchScreen.storyboard in Resources */,
-				15DB6CF61FFE314B007205B6 /* Assets.xcassets in Resources */,
 				15DB6CF41FFE314B007205B6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
