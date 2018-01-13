@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		150891A5200A41A500E85296 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 150891A4200A41A500E85296 /* Images.xcassets */; };
 		15DB6CEF1FFE314B007205B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DB6CEE1FFE314B007205B6 /* AppDelegate.swift */; };
 		15DB6CF11FFE314B007205B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DB6CF01FFE314B007205B6 /* ViewController.swift */; };
 		15DB6CF41FFE314B007205B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15DB6CF21FFE314B007205B6 /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		150891A4200A41A500E85296 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		15DB6CEB1FFE314B007205B6 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15DB6CEE1FFE314B007205B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		15DB6CF01FFE314B007205B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				15DB6CF21FFE314B007205B6 /* Main.storyboard */,
 				15DB6CF71FFE314B007205B6 /* LaunchScreen.storyboard */,
 				15DB6CFA1FFE314B007205B6 /* Info.plist */,
+				150891A4200A41A500E85296 /* Images.xcassets */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -120,6 +123,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				150891A5200A41A500E85296 /* Images.xcassets in Resources */,
 				15DB6CF91FFE314B007205B6 /* LaunchScreen.storyboard in Resources */,
 				15DB6CF41FFE314B007205B6 /* Main.storyboard in Resources */,
 			);
@@ -270,6 +274,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Calculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -284,6 +289,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Calculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
