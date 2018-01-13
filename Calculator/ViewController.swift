@@ -107,8 +107,11 @@ class ViewController: UIViewController {
     }
     
     @IBAction func squareRootButtonPressed(_ sender: UIButton) {
-       
+        if currentInput <= 0 {
+            displayResultLabel.text = "0"
+        } else {
             currentInput = sqrt(currentInput)
+        }
     }
 
     @IBAction func dotButtonPressed(_ sender: UIButton) {
