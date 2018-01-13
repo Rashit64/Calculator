@@ -50,6 +50,7 @@ class ViewController: UIViewController {
             stillTyping = true
             }
     }
+    
     @IBAction func twoOperandsSignPressed(_ sender: UIButton) {
         operationSign = sender.currentTitle!
         firstOperand = currentInput
@@ -61,6 +62,7 @@ class ViewController: UIViewController {
         currentInput = operation(firstOperand, secondOperand)
         stillTyping = false
     }
+    
     @IBAction func equalitySignPressed(_ sender: UIButton) {
         if stillTyping {
             secondOperand = currentInput
@@ -80,6 +82,7 @@ class ViewController: UIViewController {
         default: break
         }
     }
+    
     @IBAction func clearButtonPressed(_ sender: UIButton) {
         firstOperand = 0
         secondOperand = 0
@@ -89,9 +92,11 @@ class ViewController: UIViewController {
         dotIsPlaced = false
         operationSign = ""
     }
+    
     @IBAction func plusMinusButtonPressed(_ sender: UIButton) {
         currentInput = -currentInput
     }
+    
     @IBAction func percentageButtonPressed(_ sender: UIButton) {
         if firstOperand == 0 {
             currentInput = currentInput / 100
@@ -100,6 +105,7 @@ class ViewController: UIViewController {
         }
         stillTyping = false
     }
+    
     @IBAction func squareRootButtonPressed(_ sender: UIButton) {
        
             currentInput = sqrt(currentInput)
