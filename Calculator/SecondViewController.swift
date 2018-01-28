@@ -53,6 +53,7 @@ class SecondViewController: UIViewController {
     }
     
     @IBAction func twoOperandsSignPressed(_ sender: UIButton) {
+    
         operationSign = sender.currentTitle!
         firstOperand = currentInput
         stillTyping = false
@@ -65,6 +66,7 @@ class SecondViewController: UIViewController {
     }
     
     @IBAction func equalitySignPressed(_ sender: UIButton) {
+   
         if stillTyping {
             secondOperand = currentInput
         }
@@ -85,6 +87,7 @@ class SecondViewController: UIViewController {
     }
     
     @IBAction func clearButtonPressed(_ sender: UIButton) {
+   
         firstOperand = 0
         secondOperand = 0
         currentInput = 0
@@ -122,6 +125,14 @@ class SecondViewController: UIViewController {
         } else if !stillTyping && !dotIsPlaced {
             displayResultLabel.text = "0."
         }
+    }
+    @IBAction func sinButtonPressed(_ sender: UIButton) {
+    }
+    
+    @IBAction func cosButtonPressed(_ sender: UIButton) {
+    }
+    
+    @IBAction func xyButtonPressed(_ sender: UIButton) {
     }
 }
 

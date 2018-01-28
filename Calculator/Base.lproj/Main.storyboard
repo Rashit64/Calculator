@@ -423,6 +423,7 @@
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
+                                            <action selector="clearButtonPressed:" destination="ve5-Lf-nha" eventType="touchUpInside" id="mJV-s8-kL2"/>
                                             <action selector="clearButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zpm-XB-0lb"/>
                                         </connections>
                                     </button>
@@ -437,6 +438,7 @@
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
+                                            <action selector="plusMinusButtonPressed:" destination="ve5-Lf-nha" eventType="touchUpInside" id="Sno-gn-YHE"/>
                                             <action selector="plusMinusButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XIy-i0-SBu"/>
                                         </connections>
                                     </button>
@@ -452,6 +454,7 @@
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
+                                            <action selector="percentageButtonPressed:" destination="ve5-Lf-nha" eventType="touchUpInside" id="fIU-Qx-Dmw"/>
                                             <action selector="percentageButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="r5k-wT-eR2"/>
                                         </connections>
                                     </button>
@@ -469,6 +472,7 @@
                                         <connections>
                                             <action selector="equalitySignPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="73A-Up-MpD"/>
                                             <action selector="twoOperandsSignPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="t9g-4D-CUe"/>
+                                            <action selector="twoOperandsSignPressed:" destination="ve5-Lf-nha" eventType="touchUpInside" id="ujF-K0-Oo0"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="saI-1E-sAc">
@@ -517,6 +521,7 @@
                                         <connections>
                                             <action selector="equalitySignPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UvZ-x2-d6l"/>
                                             <action selector="twoOperandsSignPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6N5-cE-a19"/>
+                                            <action selector="twoOperandsSignPressed:" destination="ve5-Lf-nha" eventType="touchUpInside" id="dz5-Y9-niZ"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OOx-kG-nwX">
@@ -580,6 +585,7 @@
                                         </state>
                                         <connections>
                                             <action selector="equalitySignPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5Sk-HI-JkE"/>
+                                            <action selector="twoOperandsSignPressed:" destination="ve5-Lf-nha" eventType="touchUpInside" id="bvN-W9-esd"/>
                                             <action selector="twoOperandsSignPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gmo-MY-Yfs"/>
                                         </connections>
                                     </button>
@@ -645,6 +651,7 @@
                                         <connections>
                                             <action selector="equalitySignPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UB7-hI-dEb"/>
                                             <action selector="twoOperandsSignPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YqU-f8-JIm"/>
+                                            <action selector="twoOperandsSignPressed:" destination="ve5-Lf-nha" eventType="touchUpInside" id="xgR-5C-S15"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G3g-0o-0pb">
@@ -660,6 +667,7 @@
                                         </state>
                                         <connections>
                                             <action selector="squareRootButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ffj-fK-sFZ"/>
+                                            <action selector="squareRootButtonPressed:" destination="ve5-Lf-nha" eventType="touchUpInside" id="cgx-Sb-qcj"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1zD-B9-KWm">
@@ -690,6 +698,7 @@
                                         </state>
                                         <connections>
                                             <action selector="dotButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dz7-SD-huw"/>
+                                            <action selector="dotButtonPressed:" destination="ve5-Lf-nha" eventType="touchUpInside" id="lWh-fg-KH1"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jzc-1g-zjG">
@@ -704,6 +713,7 @@
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
+                                            <action selector="equalitySignPressed:" destination="ve5-Lf-nha" eventType="touchUpInside" id="lod-zO-GlN"/>
                                             <action selector="equalitySignPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nhj-Rw-xcj"/>
                                         </connections>
                                     </button>
@@ -735,6 +745,7 @@
                                         </state>
                                         <connections>
                                             <action selector="clearButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TJp-RF-265"/>
+                                            <action selector="sinButtonPressed:" destination="ve5-Lf-nha" eventType="touchUpInside" id="6q5-zy-7u4"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pl8-65-0kH">
@@ -746,6 +757,7 @@
                                         </state>
                                         <connections>
                                             <action selector="percentageButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q0V-Rh-PHh"/>
+                                            <action selector="xyButtonPressed:" destination="ve5-Lf-nha" eventType="touchUpInside" id="uZ5-za-jsO"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Us3-Bm-cPu">
@@ -756,6 +768,7 @@
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
+                                            <action selector="cosButtonPressed:" destination="ve5-Lf-nha" eventType="touchUpInside" id="ZDr-uH-Q6x"/>
                                             <action selector="plusMinusButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hui-La-FhG"/>
                                         </connections>
                                     </button>
