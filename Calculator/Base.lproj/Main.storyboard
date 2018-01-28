@@ -484,6 +484,7 @@
                                         </state>
                                         <connections>
                                             <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5yO-gV-LBI"/>
+                                            <action selector="numberPressed:" destination="ve5-Lf-nha" eventType="touchUpInside" id="hpt-3s-tSB"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xat-C2-iSn">
@@ -498,6 +499,7 @@
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
+                                            <action selector="numberPressed:" destination="ve5-Lf-nha" eventType="touchUpInside" id="Iod-ly-Hrj"/>
                                             <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="q9s-dc-dHJ"/>
                                         </connections>
                                     </button>
@@ -517,21 +519,6 @@
                                             <action selector="twoOperandsSignPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6N5-cE-a19"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XCf-Zd-6Qp">
-                                        <rect key="frame" x="1" y="203" width="93" height="100"/>
-                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="100" id="91L-Yb-ujU"/>
-                                            <constraint firstAttribute="width" constant="92.5" id="dax-vi-yAF"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="35"/>
-                                        <state key="normal" title="4">
-                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gq7-9s-COB"/>
-                                        </connections>
-                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OOx-kG-nwX">
                                         <rect key="frame" x="95" y="203" width="93" height="100"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -545,6 +532,23 @@
                                         </state>
                                         <connections>
                                             <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0dS-Jm-JkO"/>
+                                            <action selector="numberPressed:" destination="ve5-Lf-nha" eventType="touchUpInside" id="avf-YS-gIt"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XCf-Zd-6Qp">
+                                        <rect key="frame" x="1" y="203" width="93" height="100"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="91L-Yb-ujU"/>
+                                            <constraint firstAttribute="width" constant="92.5" id="dax-vi-yAF"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="35"/>
+                                        <state key="normal" title="4">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="numberPressed:" destination="ve5-Lf-nha" eventType="touchUpInside" id="12R-Nj-gaS"/>
+                                            <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gq7-9s-COB"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pJ7-f4-4qX">
@@ -560,6 +564,7 @@
                                         </state>
                                         <connections>
                                             <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5UJ-1w-9RN"/>
+                                            <action selector="numberPressed:" destination="ve5-Lf-nha" eventType="touchUpInside" id="zmu-gy-sCf"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1LG-oA-xDg">
@@ -591,6 +596,7 @@
                                         </state>
                                         <connections>
                                             <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Jn-Mf-QGY"/>
+                                            <action selector="numberPressed:" destination="ve5-Lf-nha" eventType="touchUpInside" id="Ykc-cL-q56"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dMB-6W-8g0">
@@ -606,6 +612,7 @@
                                         </state>
                                         <connections>
                                             <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7tM-bi-3wZ"/>
+                                            <action selector="numberPressed:" destination="ve5-Lf-nha" eventType="touchUpInside" id="WSb-Ne-bcd"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cB4-l5-czQ">
@@ -621,6 +628,7 @@
                                         </state>
                                         <connections>
                                             <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4jU-qJ-GXK"/>
+                                            <action selector="numberPressed:" destination="ve5-Lf-nha" eventType="touchUpInside" id="nUH-Xf-OHZ"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NHw-EG-i7W">
@@ -666,7 +674,7 @@
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rkd-YC-JGc"/>
+                                            <action selector="numberPressed:" destination="ve5-Lf-nha" eventType="touchUpInside" id="s8Z-rY-6XI"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3zt-4G-upA">
@@ -711,6 +719,7 @@
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
+                                            <action selector="numberPressed:" destination="ve5-Lf-nha" eventType="touchUpInside" id="Fsy-ra-S9C"/>
                                             <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Psv-Bb-MfH"/>
                                         </connections>
                                     </button>
@@ -740,7 +749,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Us3-Bm-cPu">
-                                        <rect key="frame" x="95" y="51" width="92" height="50"/>
+                                        <rect key="frame" x="95" y="51" width="93" height="50"/>
                                         <color key="backgroundColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="35"/>
                                         <state key="normal" title="cos">
@@ -823,6 +832,7 @@
                             <constraint firstItem="0qX-K5-Cnb" firstAttribute="top" secondItem="Gil-DN-2vi" secondAttribute="top" id="F0M-Ze-TAw"/>
                             <constraint firstItem="pkq-SO-x7Y" firstAttribute="leading" secondItem="eMe-OX-HYd" secondAttribute="leading" id="GvQ-PH-Yrj"/>
                             <constraint firstItem="pkq-SO-x7Y" firstAttribute="leading" secondItem="Gil-DN-2vi" secondAttribute="leading" id="SBg-Be-maW"/>
+                            <constraint firstItem="pkq-SO-x7Y" firstAttribute="top" secondItem="0qX-K5-Cnb" secondAttribute="bottom" constant="21" id="T2b-Gd-b3C"/>
                             <constraint firstItem="pkq-SO-x7Y" firstAttribute="top" secondItem="eMe-OX-HYd" secondAttribute="top" constant="161" id="WXL-Nq-JEB"/>
                             <constraint firstItem="pkq-SO-x7Y" firstAttribute="top" secondItem="Gil-DN-2vi" secondAttribute="top" constant="141" id="Zwb-EI-IZ5"/>
                             <constraint firstItem="pkq-SO-x7Y" firstAttribute="bottom" secondItem="Gil-DN-2vi" secondAttribute="bottom" id="eZY-hr-bMB"/>
@@ -833,6 +843,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Gil-DN-2vi"/>
                     </view>
+                    <connections>
+                        <outlet property="displayResultLabel" destination="0qX-K5-Cnb" id="kKQ-eN-fxP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ABG-8D-6WC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
