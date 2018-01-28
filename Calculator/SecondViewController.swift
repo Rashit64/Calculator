@@ -82,6 +82,8 @@ class SecondViewController: UIViewController {
             operateWithTwoOperands{$0 * $1}
         case "÷":
             operateWithTwoOperands{$0 / $1}
+        case "xy":
+            operateWithTwoOperands{pow($0,$1)}
         default: break
         }
     }
@@ -127,12 +129,12 @@ class SecondViewController: UIViewController {
         }
     }
     @IBAction func sinButtonPressed(_ sender: UIButton) {
+        currentInput = sin(currentInput * Double.pi / 180)
     }
     
     @IBAction func cosButtonPressed(_ sender: UIButton) {
+        currentInput = cos(currentInput * Double.pi / 180)
     }
-    
-    @IBAction func xyButtonPressed(_ sender: UIButton) {
-    }
+ 
 }
 

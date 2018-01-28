@@ -744,7 +744,6 @@
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="clearButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TJp-RF-265"/>
                                             <action selector="sinButtonPressed:" destination="ve5-Lf-nha" eventType="touchUpInside" id="6q5-zy-7u4"/>
                                         </connections>
                                     </button>
@@ -756,8 +755,8 @@
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="percentageButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q0V-Rh-PHh"/>
-                                            <action selector="xyButtonPressed:" destination="ve5-Lf-nha" eventType="touchUpInside" id="uZ5-za-jsO"/>
+                                            <action selector="equalitySignPressed:" destination="ve5-Lf-nha" eventType="touchUpInside" id="y7a-jS-mGN"/>
+                                            <action selector="twoOperandsSignPressed:" destination="ve5-Lf-nha" eventType="touchUpInside" id="4nC-WK-EBu"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Us3-Bm-cPu">
@@ -769,7 +768,6 @@
                                         </state>
                                         <connections>
                                             <action selector="cosButtonPressed:" destination="ve5-Lf-nha" eventType="touchUpInside" id="ZDr-uH-Q6x"/>
-                                            <action selector="plusMinusButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hui-La-FhG"/>
                                         </connections>
                                     </button>
                                 </subviews>
